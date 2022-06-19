@@ -59,7 +59,7 @@ Telegram send message to bot-server by https. You shoud tell your public URL to 
 
 This demo app contains function to create URL for webhook and send this to Telegram.
 
-Write random string to TG_SECRET_LINK variable in django_simple_bot/settings_local.py. Run django app (./manage.py runserver) run ngrok and open admin page to authorization as superuser (you create this user befor by command ./manage.py createsuperuser) URL like this: https://***.ngrok.io/admin/. After authorization you should open a secial page in browser, url like this: https://***.ngrok.io/tg/settings. When you open this page, Django app run tg_webhook_url_settings function and send secret URL to Telegram.
+Write random string to TG_SECRET_LINK variable in django_simple_bot/settings_local.py. Run django app (./manage.py runserver), run ngrok and open admin page to authorization as superuser (you create this user before by command ./manage.py createsuperuser) URL like this: https://\*\*\*.ngrok.io/admin/. After authorization you should open a secial page in browser, url like this: https://\*\*\*.ngrok.io/tg/settings. When you open this page, Django app run tg_webhook_url_settings function and send secret URL to Telegram.
 
 
 Description
